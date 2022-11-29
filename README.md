@@ -14,8 +14,11 @@
 ## [how to execute]
 Mnist dataset
 1. cd BNN_Mnist_Secure_prediction/bin
+
 2-a. ./BNN_Mnist_Secure_prediction -r 0 -a {IP1} [-n {the number of neuron}]
+
 2-b. ./BNN_Mnist_Secure_prediction -r 1 -a {IP1} [-n {the number of neuron}]
+
 The default number of neuron is 128.
 The maximum number of neuron is 1000.
 
