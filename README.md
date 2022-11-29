@@ -12,26 +12,26 @@
 10. make
 
 ## [how to execute]
-### <Mnist dataset>
+Mnist dataset
 1. cd BNN_Mnist_Secure_prediction/bin
 2-a. ./BNN_Mnist_Secure_prediction -r 0 -a {IP1} [-n {the number of neuron}]
 2-b. ./BNN_Mnist_Secure_prediction -r 1 -a {IP1} [-n {the number of neuron}]
 The default number of neuron is 128.
 The maximum number of neuron is 1000.
 
-### <Cancer dataset>
+Cancer dataset
 1. cd BNN_Cancer_Secure_prediction/bin
 2-a. ./BNN_Cancer_Secure_prediction -r 0 -a {IP1}
 2-b. ./BNN_Cancer_Secure_prediction -r 1 -a {IP1} 
-     The default number of neuron is 2.
-     The maximum number of neuron is 2.
+The default number of neuron is 2.
+The maximum number of neuron is 2.
 
-### <Diabetes dataset>
+Diabetes dataset
 1. cd BNN_Diabetes_Secure_prediction/bin
 2-a. ./BNN_Diabetes_Secure_prediction -r 0 -a {IP1}
 2-b. ./BNN_Diabetes_Secure_prediction -r 1 -a {IP1} 
-     The default number of neuron is 10.
-     The maximum number of neuron is 10.
+The default number of neuron is 10.
+The maximum number of neuron is 10.
 
 ## [how to evaluate experimental result]
 This program outputs three benchmarks. If you want to check the secure prediction benchmark, you can look at the second benchmark.
