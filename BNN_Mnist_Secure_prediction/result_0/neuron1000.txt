@@ -1,0 +1,125 @@
+[ec2-user@ip-172-31-33-108 bin]$ ./BNN_Mnist_Secure_prediction.exe -r 0 -a 172.31.33.108 -n 1000
+Listening: 172.31.33.108:7766
+ (0) (0) connection accepted
+ (1) (1) connection accepted
+Listening finished
+Online time is distributed as follows: 
+Bool: local gates: 0.004, interactive gates: 0.002, layer finish: 0.007
+Yao: local gates: 0.002, interactive gates: 0.002, layer finish: 0.003
+Yao Rev: local gates: 0.002, interactive gates: 0.002, layer finish: 0.003
+Arith: local gates: 8.303, interactive gates: 34.924, layer finish: 614.397
+SPLUT: local gates: 0.003, interactive gates: 0.002, layer finish: 0.011
+Communication: 7.263
+
+Complexities: 
+Boolean Sharing: ANDs: 0 (1-bit) ; Depth: 0
+Total Vec AND: 0
+Total Non-Vec AND: 0
+XOR vals: 0 gates: 0
+Comb gates: 0, CombStruct gates: 0, Perm gates: 0, Subset gates: 0, Split gates: 0
+Yao: ANDs: 0 ; Depth: 0
+Reverse Yao: ANDs: 0 ; Depth: 0
+Arithmetic Sharing: MULs: 0 ; Depth: 2
+SP-LUT Sharing: OT-gates: Total OT gates = 0; Depth: 1
+Total number of gates: 38 Total depth: 2
+Timings: 
+Total =		1272.19 ms
+Init =		0.211 ms
+CircuitGen =	0.076 ms
+Network =	1.115 ms
+BaseOTs =	258.158 ms
+Setup =		0.083 ms
+OTExtension =	0.065 ms
+Garbling =	0.001 ms
+Online =	1272.1 ms
+
+Communication: 
+Total Sent / Rcv	7192098  bytes / 9 bytes
+BaseOTs Sent / Rcv	49956  bytes / 49957 bytes
+Setup Sent / Rcv	0  bytes / 0 bytes
+OTExtension Sent / Rcv	0  bytes / 0 bytes
+Garbling Sent / Rcv	0  bytes / 0 bytes
+Online Sent / Rcv	7192098  bytes / 9 bytes
+Listening: 172.31.33.108:7766
+ (0) (0) connection accepted
+ (1) (1) connection accepted
+Listening finished
+Online time is distributed as follows: 
+Bool: local gates: 0.03, interactive gates: 0.012, layer finish: 0.034
+Yao: local gates: 0.042, interactive gates: 1.255, layer finish: 1.809
+Yao Rev: local gates: 0.016, interactive gates: 0.011, layer finish: 0.019
+Arith: local gates: 339.752, interactive gates: 168.522, layer finish: 255.356
+SPLUT: local gates: 0.016, interactive gates: 0.01, layer finish: 0.07
+Communication: 64.24
+
+Complexities: 
+Boolean Sharing: ANDs: 0 (1-bit) ; Depth: 17
+Total Vec AND: 0
+Total Non-Vec AND: 0
+XOR vals: 0 gates: 0
+Comb gates: 0, CombStruct gates: 0, Perm gates: 0, Subset gates: 0, Split gates: 0
+Yao: ANDs: 157000 ; Depth: 16
+Reverse Yao: ANDs: 0 ; Depth: 0
+Arithmetic Sharing: MULs: 1798010 ; Depth: 23
+SP-LUT Sharing: OT-gates: Total OT gates = 0; Depth: 1
+Total number of gates: 7181850 Total depth: 23
+Timings: 
+Total =		10697.2 ms
+Init =		0.086 ms
+CircuitGen =	0.068 ms
+Network =	11.1 ms
+BaseOTs =	257.442 ms
+Setup =		9865.84 ms
+OTExtension =	9679.58 ms
+Garbling =	31.01 ms
+Online =	831.386 ms
+
+Communication: 
+Total Sent / Rcv	1175277652  bytes / 1167713657 bytes
+BaseOTs Sent / Rcv	49947  bytes / 49958 bytes
+Setup Sent / Rcv	1155773428  bytes / 1153309460 bytes
+OTExtension Sent / Rcv	1150749410  bytes / 1153309460 bytes
+Garbling Sent / Rcv	0  bytes / 0 bytes
+Online Sent / Rcv	19504224  bytes / 14404197 bytes
+Listening: 172.31.33.108:7766
+ (0) (0) connection accepted
+ (1) (1) connection accepted
+Listening finished
+Online time is distributed as follows: 
+Bool: local gates: 0.002, interactive gates: 0.001, layer finish: 0.003
+Yao: local gates: 0, interactive gates: 0, layer finish: 0.001
+Yao Rev: local gates: 0.001, interactive gates: 0, layer finish: 0.001
+Arith: local gates: 0.001, interactive gates: 0.002, layer finish: 0.003
+SPLUT: local gates: 0, interactive gates: 0, layer finish: 0.003
+Communication: 0.077
+
+Complexities: 
+Boolean Sharing: ANDs: 0 (1-bit) ; Depth: 0
+Total Vec AND: 0
+Total Non-Vec AND: 0
+XOR vals: 0 gates: 0
+Comb gates: 0, CombStruct gates: 0, Perm gates: 0, Subset gates: 0, Split gates: 0
+Yao: ANDs: 0 ; Depth: 0
+Reverse Yao: ANDs: 0 ; Depth: 0
+Arithmetic Sharing: MULs: 0 ; Depth: 1
+SP-LUT Sharing: OT-gates: Total OT gates = 0; Depth: 1
+Total number of gates: 2 Total depth: 1
+Timings: 
+Total =		0.517 ms
+Init =		0.077 ms
+CircuitGen =	0.066 ms
+Network =	10.942 ms
+BaseOTs =	255.961 ms
+Setup =		0.076 ms
+OTExtension =	0.049 ms
+Garbling =	0.001 ms
+Online =	0.439 ms
+
+Communication: 
+Total Sent / Rcv	58  bytes / 58 bytes
+BaseOTs Sent / Rcv	49956  bytes / 49958 bytes
+Setup Sent / Rcv	0  bytes / 49 bytes
+OTExtension Sent / Rcv	0  bytes / 0 bytes
+Garbling Sent / Rcv	0  bytes / 0 bytes
+Online Sent / Rcv	58  bytes / 9 bytes
+
