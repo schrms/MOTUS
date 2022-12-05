@@ -1,11 +1,11 @@
-# SecureBNN-TNN
+# MOTUS
 ## [how to install]
 1. launch two c4.8xlarge instances (AmazonEC2) and set each IP address as IP1, IP2 set as follow in each instance
 2. git clone ABY.git
 3. git checkout 104f2ec9bee9ab2b4208913f4076eea282c14154
 4. git submodule update --init --recursive
 5. uncomment the ABY/src/abycore/ABY_utils/ABYconstants.h:29 enable "#define PRINT_OUTPUT" 
-6. put the repository in the same folder as ABY
+6. put the repository(for example, MNIST_Arc1) in the same folder as ABY
 7. cd ABY
 8. make
 9. cd ../"repository name"
